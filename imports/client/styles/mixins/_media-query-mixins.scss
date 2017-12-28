@@ -1,0 +1,12 @@
+
+//Google scss for Mixins
+
+@mixin funkyBackground($backgoundColor: green) {
+  background-color: $backgoundColor;
+}
+
+@mixin desktop () {
+    @media (min-width: 50rem) {
+      @content;
+    }
+}
